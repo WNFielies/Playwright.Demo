@@ -39,6 +39,12 @@ const config: PlaywrightTestConfig = {
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
 
+    /*Take video recordings for every test. See https://playwright.dev/docs/videos */
+    video: 'on',
+    
+    /*Take screenshot for every test. See https://playwright.dev/docs/screenshots*/
+    screenshot: 'on',
+
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on',
   },
